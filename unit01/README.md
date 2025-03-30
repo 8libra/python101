@@ -38,19 +38,19 @@ Python programs often require reusable code, called packages, written by others.
 Guided tasks:
 1. Upgrade pip to ensure it is the latest version.
 
-``cmd
+```cmd
 pip install -U pip
 ```
 
 2. Install the two extra packages required by the program used in the homework:
 
-```bash
+```cmd
 pip install requests protobuf
 ```
 
 3. Use `git` to download the files for this unit.
 
-```bash
+```cmd
 git clone https://github.com/8libra/python101.git
 ```
 
@@ -58,7 +58,7 @@ git clone https://github.com/8libra/python101.git
 
 1. Run the `apple_bssid_locator.py` program:
 
-```bash
+```cmd
 python apple_bssid_locator.py -b 04:d9:f5:fa:d4:fc
 ```
 
@@ -66,7 +66,7 @@ What is the latitude and longitude returned?
 
 2. Create a text file using Notepad++ with each line containing a BSSID. Save the text file. Then run:
 
-```bash
+```cmd
 python apple_bssid_locator.py -l text_file -o bssid_info.csv
 ```
 

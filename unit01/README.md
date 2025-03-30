@@ -23,7 +23,7 @@ Guided tasks:
 
 Guided tasks:
 - Launch an interactive Python shell with `python -i`
-- Run statements and exiting
+- Run statements and exit
 - Use Notepad++ and saving the following Python program:
 
 ```python
@@ -44,13 +44,13 @@ pip install -U pip
 
 2. Install the two extra packages required by the program used in the homework:
 
-```cmd
+```bash
 pip install requests protobuf
 ```
 
 3. Use `git` to download the files for this unit.
 
-```cmd
+```bash
 git clone https://github.com/8libra/python101.git
 ```
 
@@ -58,7 +58,7 @@ git clone https://github.com/8libra/python101.git
 
 1. Run the `apple_bssid_locator.py` program:
 
-```cmd
+```bash
 python apple_bssid_locator.py -b 04:d9:f5:fa:d4:fc
 ```
 
@@ -66,7 +66,7 @@ What is the latitude and longitude returned?
 
 2. Create a text file using Notepad++ with each line containing a BSSID. Save the text file. Then run:
 
-```cmd
+```bash
 python apple_bssid_locator.py -l text_file -o bssid_info.csv
 ```
 

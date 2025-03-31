@@ -34,11 +34,16 @@ simulated_line = "IP: 1.2.3.4\n"
 print(simulated_line)
 data = simulated_line.rstrip()
 print(data)
+
+s = "hello"
+print(len())
+s = s[0:4] # string slicing works just like array slicing
+print(s)
 ```
 
 ## 3.2 Sets
 
-A *set* is a variable type that is similar to lists, meaning it holds several bits of data. Unlike lists, sets are not ordered, and adding a duplicate value to a set has no effect.
+A *set* is a variable type that is similar to lists, meaning it holds several bits of data. Unlike lists, sets are not ordered, and adding a duplicate value to a set does not change the set.
 
 ```python
 s = set() # empty set
@@ -52,8 +57,8 @@ s = set(list_of_numbers) # make a set from a list!
 print(s)
 print(len(s))
 
-s1 = set([1, 2, 3, 4, 5])
-s2 = set([3, 4, 5, 6, 7])
+s1 = {1, 2, 3, 4, 5} # another way to create a set
+s2 = {3, 4, 5, 6, 7}
 s3 = s1.intersection(s2) # set intersection
 print(s3)
 s4 = s1.union(s2) # set union
@@ -77,6 +82,13 @@ my_characteristics = {
 print(my_characteristics["age"])
 my_characteristics["state"] = "NV"
 print(my_characteristics)
+
+# Suppose we have one list of keys and one list of corresponding values, like this:
+abbreviations = ["AN", "LA", "DN", "LV", "WF"]
+cities = ["Anchorage", "Los Angeles", "Denver", "Las Vegas", "Washington DC"]
+field_offices = dict(zip(abbreviations, cities))
+print(type(field_offices))
+print(field_offices)
 ```
 
 ## 3.4 Homework Preparation

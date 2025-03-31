@@ -61,6 +61,8 @@ print(maximum)
 
 Functions are called by writing the function name, followed by the function arguments in parenthesis.
 
+Functions are like verbs in human language. Just like with human language, what functions are available and how to use them is something learned over time.
+
 ## 2.5 Lists
 
 *Lists* hold an ordered collection of data. Duplicates are allowed.

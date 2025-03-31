@@ -33,7 +33,7 @@ print("Hello, World!")
 
 ## 1.4 Homework Preparation
 
-Python programs often require reusable code, called packages, written by others. We use the program `pip` to install these packages.
+Python programs often require reusable code, called *modules*, written by others. We use the program `pip` to install these modules.
 
 Guided tasks:
 1. Upgrade pip to ensure it is the latest version.
@@ -42,7 +42,7 @@ Guided tasks:
 pip install -U pip
 ```
 
-2. Install the two extra packages required by the program used in the homework:
+2. Install the two extra modules required by the program used in the homework:
 
 ```cmd
 pip install requests protobuf
@@ -76,5 +76,5 @@ Ensure you understand the following concepts (if not, ask!):
 
 - Virtual environments
 - Python interactive shell
-- Packages
+- Modules
 - Cross platform code

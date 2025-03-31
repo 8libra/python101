@@ -76,13 +76,18 @@ print(l)
 We can do useful stuff to lists with functions.
 
 ```python
-l = [100, 200, 300, 400, 500] # initial list
+l = [300, 400, 100, 500, 200] # initial list
 print(l)
 length = len(l)
 print(length) # print and len are both functions!
-l.append(600) # a different type of function
+l.append(600) # a different type of function called a method
 print(l)
 print(len(l)) # functions can be nested
+
+l.sort(reverse = True) # sort list in descending order
+print(l)
+l.sort() # sort list in ascending order
+print(l)
 
 # more functions on lists
 print(min(l))
@@ -96,6 +101,7 @@ print(sum(l))
 print(l[0]) # access individual members of a list; indices start from 0!
 print(l[1])
 print(l[-1])
+l[1] = 900 # we can use indexing to modify a list too
 
 new_list = l[3:5] # this is called a list slice
 print(new_list)

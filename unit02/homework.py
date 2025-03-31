@@ -23,3 +23,5 @@ with open(random_numbers_text_file, "r", encoding = "utf-8") as input:
 # Question 6b: Verify the length of this new list.
 
 # Question 6c: Calculate the sum and average of this new list of numbers.
+
+# Question 6d: Sort this list in ascending order. What is the tenth smallest value?

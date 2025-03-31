@@ -41,6 +41,25 @@ s = s[0:4] # string slicing works just like array slicing
 print(s)
 ```
 
+### 3.1.1 Formatted String Literals, or F-strings
+
+We often need to create or use a string that includes the values of other variables or even functions. Python's solution is the *formatted string literal*, or F-string.
+
+```python
+name = "Alan"
+greeting = f"Hello. My name is {name}."
+print(type(greeting)) # same 'str' type
+print(greeting)
+
+pi = 3.14 # works for numbers too
+print(f"The value of pi is {pi}.")
+x = 5
+print(x**2) # ** is the power operator
+print(f"5 squared is {x**2}.") # works with expressions
+l = [100, 200, 300]
+print(f"The sum is {sum(l)}.") # and works with functions
+```
+
 ## 3.2 Sets
 
 A *set* is a variable type that is similar to lists, meaning it holds several bits of data. Unlike lists, sets are not ordered, and adding a duplicate value to a set does not change the set.
@@ -65,6 +84,7 @@ s4 = s1.union(s2) # set union
 print(s4)
 s5 = s2 - s1 # set subtraction
 print(s5)
+print(max(s5)) # min and max functions work on sets too
 ```
 
 ## 3.3 Dictionaries
@@ -106,3 +126,4 @@ Open the file `homework.py` and complete the questions. Ask questions if stuck!
 Ensure you understand the following concepts (if not, ask!):
 
 - More types of variables: strings, sets, dictionaries
+- Formatted string literals, or F-strings

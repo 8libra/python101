@@ -22,7 +22,7 @@ Guided tasks:
 ## 1.3 First Steps into Python
 
 Guided tasks:
-- Launch an interactive Python shell with `python -i`
+- Launch an *Python interactive shell* with `python -i`
 - Run statements and exit
 - Use Notepad++ and saving the following Python program:
 
@@ -75,5 +75,6 @@ python apple_bssid_locator.py -l text_file -o bssid_info.csv
 Ensure you understand the following concepts (if not, ask!):
 
 - Virtual environments
+- Python interactive shell
 - Packages
 - Cross platform code

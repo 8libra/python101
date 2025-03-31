@@ -5,6 +5,8 @@ In this unit you will learn to:
 - Call operators and functions
 - Manipulate numbers and lists
 
+To start, launch a Python interactive shell.
+
 ## 2.1 What are variables?
 
 *Variables* are locations in computer memory that store data. Each variable has the following characteristics:

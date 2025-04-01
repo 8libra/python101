@@ -100,7 +100,7 @@ print(sum(l))
 ```python
 print(l[0]) # access individual members of a list; indices start from 0!
 print(l[1])
-print(l[-1])
+print(l[-1]) # negative indices start counting from the end, there is no index -0
 l[1] = 900 # we can use indexing to modify a list too
 
 new_list = l[3:5] # this is called a list slice
@@ -134,7 +134,7 @@ Ensure you understand the following concepts (if not, ask!):
 - Several types of variables: int, float, list, bool
 - Assignment operator
 - Mathematical operators
-- Equality operator
+- Equality operator ==
 - Functions
 - List indices and slicing
 - Python comments

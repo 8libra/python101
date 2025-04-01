@@ -16,13 +16,13 @@ Guided task: Download and install the following programs:
 
 Guided tasks:
 - Create a desktop shortcut to Command Prompt `C:\Windows\System32\cmd.exe`
-- Create a Python virtual environment
-- Create a batch file to launch the virtual environment
+- Create a Python virtual environment called main with the command `python -m venv main`
+- Create a batch file to launch the main virtual environment
 
 ## 1.3 First Steps into Python
 
 Guided tasks:
-- Launch an *Python interactive shell* with `python -i`
+- Launch a *Python interactive shell* with `python -i`
 - Run statements and exit
 - Use Notepad++ and saving the following Python program:
 

@@ -24,12 +24,14 @@ Guided tasks:
 Guided tasks:
 - Launch a *Python interactive shell* with `python -i`
 - Run statements and exit
-- Use Notepad++ and saving the following Python program:
+- Use Notepad++ and save the following Python program:
 
 ```python
 #! /usr/bin/env python
 print("Hello, World!")
 ```
+
+- Run the program
 
 ## 1.4 Homework Preparation
 

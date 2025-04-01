@@ -36,7 +36,7 @@ data = simulated_line.rstrip()
 print(data)
 
 s = "hello"
-print(len())
+print(len(s))
 s = s[0:4] # string slicing works just like array slicing
 print(s)
 ```
@@ -70,6 +70,8 @@ print(type(s)) # <class 'set'>
 print(len(s))
 s.add(1)
 print(s)
+s.add(1)
+print(s) # adding a duplicate element has no effect
 
 list_of_numbers = [4, 2, 5, 3, 1, 4, 9, 25, -1, 3, 25, 4]
 s = set(list_of_numbers) # make a set from a list!
@@ -100,7 +102,7 @@ my_characteristics = {
     "height_in_meters": 1.75 # floating point number
 }
 print(my_characteristics["age"])
-my_characteristics["state"] = "NV"
+my_characteristics["state"] = "NV" # assign a value to a new key in the dictionary
 print(my_characteristics)
 
 # Suppose we have one list of keys and one list of corresponding values, like this:

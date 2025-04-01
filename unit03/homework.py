@@ -43,4 +43,4 @@ for transaction in transaction_lines:
 
 # Question 6: Each transaction dictionary has a "amount" key. What is the total value of all of "amount"? Since sending and  receiving is logged separately, the amount calculated this way is generally counting the money twice.
 
-# Question 7: Each transaction dictionary has an "amount" key. Using a set of list, what was the largest amount in the dataset?
+# Question 7: Each transaction dictionary has an "amount" key. Using a set or list, what was the largest amount in the dataset?

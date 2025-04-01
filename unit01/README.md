@@ -35,7 +35,7 @@ print("Hello, World!")
 
 ## 1.4 Homework Preparation
 
-Python programs often require reusable code, called *modules*, written by others. We use the program `pip` to install these modules.
+Python programs often require extra reusable code, called *modules*, written by others. We use the program `pip` to install these modules.
 
 Guided tasks:
 1. Upgrade pip to ensure it is the latest version.
@@ -50,7 +50,7 @@ pip install -U pip
 pip install requests protobuf
 ```
 
-3. Use `git` to download the files for this unit.
+3. Use `git` to download the files needed for the homework.
 
 ```cmd
 git clone https://github.com/8libra/python101.git
@@ -58,7 +58,7 @@ git clone https://github.com/8libra/python101.git
 
 ## 1.5 Homework
 
-1. Run the `apple_bssid_locator.py` program:
+1. Use the `cd` command to change into the apple_bssid_locator directory. Run the `apple_bssid_locator.py` program:
 
 ```cmd
 python apple_bssid_locator.py -b 04:d9:f5:fa:d4:fc

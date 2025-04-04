@@ -9,7 +9,7 @@ with open(transactions_data_file, "r", encoding = "utf-8") as input:
     header = next(reader)
     for row in reader:
         transaction_line = dict(zip(header, row))
-        # Values are read in as strings. But for the fields that represent numbers, we could convert the strings into numbers.
+        # Values are read in as strings. But for the fields that represent numbers, we could and should convert the strings into numbers.
         transaction_line["blockHeight"] = int(transaction_line["blockHeight"])
         transaction_line["exchangeRate"] = float(transaction_line["exchangeRate"])
         transaction_line["trace#"] = int(transaction_line["trace#"])

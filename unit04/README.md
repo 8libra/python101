@@ -3,7 +3,7 @@
 In this unit you will learn to:
 - Recognize expressions
 - Think about True and False, computer style
-- Use logic, comparison and membership operators
+- Use comparison, membership and logic operators
 - Write conditional statements using if ... elif ... else
 
 To start, launch a Python interactive shell.
@@ -18,7 +18,7 @@ To start, launch a Python interactive shell.
 - math.sqrt(9) # a number 3
 - "spreadsheet.xlsx".endswith(".xlsx") # the boolean value True
 
-We often save the value of an expression to a variable. But expressions can be used in other ways.
+We most often save the value of an expression to a variable. But expressions can be used in other ways.
 
 ## 4.2 What are conditional statements?
 
@@ -33,7 +33,7 @@ else:
     print("Branch 2 code")
 ```
 
-Since the Boolean variable True is always true, the branch 1 code will always run. But we can use expressions and conditionals to do more interesting things.
+Since the Boolean expression True is always true, the branch 1 code will always run. In the above code, the branch 2 code will never run. But we can use expressions and conditionals to do more interesting things.
 
 We will come back to writing conditional statements in Python, but we first must understand boolean expressions.
 
@@ -48,6 +48,8 @@ l = [10, 20, 30]
 print(len(l))
 print(len(l) == 3) # True
 print(len(l) != 3) # False!
+print(l[0] == 10)
+print(l[1] != 9)
 ```
 
 We have comparison operators:
@@ -55,7 +57,7 @@ We have comparison operators:
 - != not equal test
 - >, >=, <, <=
 
-Each of these operators compares the left side of the expression with the right side of the expression, and returns True or False.
+Each of these operators compares the left side of the expression with the right side of the expression, and returns Boolean True or False.
 
 ### 4.3.2 Membership Operators
 

@@ -189,11 +189,13 @@ with open(input_file, "r", encoding = "utf-8") as input, open(output_file, "w", 
 
 ## 6.9 Homework
 
-Write a Python program, `first_field.py`. The program should read a .csv file, and write a new .csv file that contains the first field (index 0) of each row.
+The `o1_transaction_log.tsv` file is the same list of blockchain transactions we have worked with previously, except that the file is a TSV file, *not* a CSV file.
 
-Bonus 1: Modify the program to output the first and third fields (watch the indices!), instead of just the first field.
+Open and read the `o1_transaction_log.tsv` file. The first line is the header, and should not be treated as data.
 
-Bonus 2: Can you use the example of `convert.py` to extend your program to handle TSV files too? Double credit if you can get the program to handle TSV and CSV files for both input and output.
+The 11th field of each row (*not* index 11) contains the Chainalysis cluster name, or the empty string "". The first and fourth fields of each row contain the transaction hash and timestamp respectively, again watch the indices!
+
+Loop through the rows. Output a new CSV file (comma-separated-value) writing the transaction hash, timestamp and cluster name if the cluster name of the input data is not the empty string "".
 
 ## 6.10 Important Concepts
 

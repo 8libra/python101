@@ -195,7 +195,9 @@ Open and read the `o1_transaction_log.tsv` file. The first line is the header, a
 
 The 11th field of each row (*not* index 11) contains the Chainalysis cluster name, or the empty string "". The first and fourth fields of each row contain the transaction hash and timestamp respectively, again watch the indices!
 
-Loop through the rows. Output a new CSV file (comma-separated-value) writing the transaction hash, timestamp and cluster name if the cluster name of the input data is not the empty string "".
+Loop through the rows. Output a new CSV file (comma-separated-value) writing the transaction hash, timestamp and cluster name if:
+- The cluster name is not the empty string "", *and*
+- The cluster name is not "OKX.com"
 
 ## 6.10 Important Concepts
 

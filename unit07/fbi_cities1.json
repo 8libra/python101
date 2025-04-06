@@ -1,0 +1,280 @@
+{
+    "offices":
+    {
+        "AL":
+        {
+            "city": "Albany",
+            "state": "NY"
+        },
+        "AN":
+        {
+            "city": "Anchorage",
+            "state": "AK"
+        },
+        "AQ":
+        {
+            "city": "Albuquerque",
+            "state": "NM"
+        },
+        "AT":
+        {
+            "city": "Atlanta",
+            "state": "GA"
+        },
+        "BA":
+        {
+            "city": "Baltimore",
+            "state": "MD"
+        },
+        "BF":
+        {
+            "city": "Buffalo",
+            "state": "NY"
+        },
+        "BH":
+        {
+            "city": "Birmingham",
+            "state": "AL"
+        },
+        "BS":
+        {
+            "city": "Boston",
+            "state": "MA"
+        },
+        "CE":
+        {
+            "city": "Charlotte",
+            "state": "NC"
+        },
+        "CG":
+        {
+            "city": "Chicago",
+            "state": "IL"
+        },
+        "CI":
+        {
+            "city": "Cincinnati",
+            "state": "OH"
+        },
+        "CO":
+        {
+            "city": "Columbia",
+            "state": "SC"
+        },
+        "CV":
+        {
+            "city": "Cleveland",
+            "state": "OH"
+        },
+        "DE":
+        {
+            "city": "Detroit",
+            "state": "MI"
+        },
+        "DL":
+        {
+            "city": "Dallas",
+            "state": "TX"
+        },
+        "DN":
+        {
+            "city": "Denver",
+            "state": "CO"
+        },
+        "EP":
+        {
+            "city": "El Paso",
+            "state": "TX"
+        },
+        "HN":
+        {
+            "city": "Honolulu",
+            "state": "HI"
+        },
+        "HO":
+        {
+            "city": "Houston",
+            "state": "TX"
+        },
+        "IP":
+        {
+            "city": "Indianapolis",
+            "state": "IN"
+        },
+        "JN":
+        {
+            "city": "Jackson",
+            "state": "MS"
+        },
+        "JV":
+        {
+            "city": "Jacksonville",
+            "state": "FL"
+        },
+        "KC":
+        {
+            "city": "Kansas City",
+            "state": "MO"
+        },
+        "LA":
+        {
+            "city": "Los Angeles",
+            "state": "CA"
+        },
+        "LR":
+        {
+            "city": "Little Rock",
+            "state": "AR"
+        },
+        "LS":
+        {
+            "city": "Louisville",
+            "state": "KY"
+        },
+        "LV":
+        {
+            "city": "Las Vegas",
+            "state": "NV"
+        },
+        "MW":
+        {
+            "city": "Milwaukee",
+            "state": "WI"
+        },
+        "MM":
+        {
+            "city": "Miami",
+            "state": "FL"
+        },
+        "MO":
+        {
+            "city": "Mobile",
+            "state": "AL"
+        },
+        "MP":
+        {
+            "city": "Minneapolis",
+            "state": "MN"
+        },
+        "NF":
+        {
+            "city": "Norfolk",
+            "state": "VA"
+        },
+        "NH":
+        {
+            "city": "New Haven",
+            "state": "CT"
+        },
+        "NK":
+        {
+            "city": "Newark",
+            "state": "NJ"
+        },
+        "NO":
+        {
+            "city": "New Orleans",
+            "state": "LA"
+        },
+        "NV":
+        {
+            "city": "Nashville",
+            "state": "TN"
+        },
+        "NY":
+        {
+            "city": "New York",
+            "state": "NY"
+        },
+        "OK":
+        {
+            "city": "Oklahoma City",
+            "state": "OK"
+        },
+        "OM":
+        {
+            "city": "Omaha",
+            "state": "NE"
+        },
+        "PD":
+        {
+            "city": "Portland",
+            "state": "OR"
+        },
+        "PG":
+        {
+            "city": "Pittsburgh",
+            "state": "PA"
+        },
+        "PH":
+        {
+            "city": "Philadelphia",
+            "state": "PA"
+        },
+        "PX":
+        {
+            "city": "Phoenix",
+            "state": "AZ"
+        },
+        "RH":
+        {
+            "city": "Richmond",
+            "state": "VA"
+        },
+        "SA":
+        {
+            "city": "San Antonio",
+            "state": "TX"
+        },
+        "SC":
+        {
+            "city": "Sacramento",
+            "state": "CA"
+        },
+        "SD":
+        {
+            "city": "San Diego",
+            "state": "CA"
+        },
+        "SE":
+        {
+            "city": "Seattle",
+            "state": "WA"
+        },
+        "SF":
+        {
+            "city": "San Francisco",
+            "state": "CA"
+        },
+        "SI":
+        {
+            "city": "Springfield",
+            "state": "IL"
+        },
+        "SJ":
+        {
+            "city": "San Juan",
+            "state": "PR"
+        },
+        "SL":
+        {
+            "city": "St. Louis",
+            "state": "MO"
+        },
+        "SU":
+        {
+            "city": "Salt Lake City",
+            "state": "UT"
+        },
+        "TP":
+        {
+            "city": "Tampa",
+            "state": "FL"
+        },
+        "WF":
+        {
+            "city": "Washington",
+            "state": "DC"
+        }
+    }
+}

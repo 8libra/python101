@@ -1,0 +1,280 @@
+{
+    "offices":
+    [
+        {
+            "abbreviation": "AL",
+            "city": "Albany",
+            "state": "NY"
+        },
+        {
+            "abbreviation": "AN",
+            "city": "Anchorage",
+            "state": "AK"
+        },
+        {
+            "abbreviation": "AQ",
+            "city": "Albuquerque",
+            "state": "NM"
+        },
+        {
+            "abbreviation": "AT",
+            "city": "Atlanta",
+            "state": "GA"
+        },
+        {
+            "abbreviation": "BA",
+            "city": "Baltimore",
+            "state": "MD"
+        },
+        {
+            "abbreviation": "BF",
+            "city": "Buffalo",
+            "state": "NY"
+        },
+        {
+            "abbreviation": "BH",
+            "city": "Birmingham",
+            "state": "AL"
+        },
+        {
+            "abbreviation": "BS",
+            "city": "Boston",
+            "state": "MA"
+        },
+        {
+            "abbreviation": "CE",
+            "city": "Charlotte",
+            "state": "NC"
+        },
+        {
+            "abbreviation": "CG",
+            "city": "Chicago",
+            "state": "IL"
+        },
+        {
+            "abbreviation": "CI",
+            "city": "Cincinnati",
+            "state": "OH"
+        },
+        {
+            "abbreviation": "CO",
+            "city": "Columbia",
+            "state": "SC"
+        },
+        {
+            "abbreviation": "CV",
+            "city": "Cleveland",
+            "state": "OH"
+        },
+        {
+            "abbreviation": "DE",
+            "city": "Detroit",
+            "state": "MI"
+        },
+        {
+            "abbreviation": "DL",
+            "city": "Dallas",
+            "state": "TX"
+        },
+        {
+            "abbreviation": "DN",
+            "city": "Denver",
+            "state": "CO"
+        },
+        {
+            "abbreviation": "EP",
+            "city": "El Paso",
+            "state": "TX"
+        },
+        {
+            "abbreviation": "HN",
+            "city": "Honolulu",
+            "state": "HI"
+        },
+        {
+            "abbreviation": "HO",
+            "city": "Houston",
+            "state": "TX"
+        },
+        {
+            "abbreviation": "IP",
+            "city": "Indianapolis",
+            "state": "IN"
+        },
+        {
+            "abbreviation": "JN",
+            "city": "Jackson",
+            "state": "MS"
+        },
+        {
+            "abbreviation": "JV",
+            "city": "Jacksonville",
+            "state": "FL"
+        },
+        {
+            "abbreviation": "KC",
+            "city": "Kansas City",
+            "state": "MO"
+        },
+        {
+            "abbreviation": "LA",
+            "city": "Los Angeles",
+            "state": "CA"
+        },
+        {
+            "abbreviation": "LR",
+            "city": "Little Rock",
+            "state": "AR"
+        },
+        {
+            "abbreviation": "LS",
+            "city": "Louisville",
+            "state": "KY"
+        },
+        {
+            "abbreviation": "LV",
+            "city": "Las Vegas",
+            "state": "NV"
+        },
+        {
+            "abbreviation": "MW",
+            "city": "Milwaukee",
+            "state": "WI"
+        },
+        {
+            "abbreviation": "MM",
+            "city": "Miami",
+            "state": "FL"
+        },
+        {
+            "abbreviation": "MO",
+            "city": "Mobile",
+            "state": "AL"
+        },
+        {
+            "abbreviation": "MP",
+            "city": "Minneapolis",
+            "state": "MN"
+        },
+        {
+            "abbreviation": "NF",
+            "city": "Norfolk",
+            "state": "VA"
+        },
+        {
+            "abbreviation": "NH",
+            "city": "New Haven",
+            "state": "CT"
+        },
+        {
+            "abbreviation": "NK",
+            "city": "Newark",
+            "state": "NJ"
+        },
+        {
+            "abbreviation": "NO",
+            "city": "New Orleans",
+            "state": "LA"
+        },
+        {
+            "abbreviation": "NV",
+            "city": "Nashville",
+            "state": "TN"
+        },
+        {
+            "abbreviation": "NY",
+            "city": "New York",
+            "state": "NY"
+        },
+        {
+            "abbreviation": "OK",
+            "city": "Oklahoma City",
+            "state": "OK"
+        },
+        {
+            "abbreviation": "OM",
+            "city": "Omaha",
+            "state": "NE"
+        },
+        {
+            "abbreviation": "PD",
+            "city": "Portland",
+            "state": "OR"
+        },
+        {
+            "abbreviation": "PG",
+            "city": "Pittsburgh",
+            "state": "PA"
+        },
+        {
+            "abbreviation": "PH",
+            "city": "Philadelphia",
+            "state": "PA"
+        },
+        {
+            "abbreviation": "PX",
+            "city": "Phoenix",
+            "state": "AZ"
+        },
+        {
+            "abbreviation": "RH",
+            "city": "Richmond",
+            "state": "VA"
+        },
+        {
+            "abbreviation": "SA",
+            "city": "San Antonio",
+            "state": "TX"
+        },
+        {
+            "abbreviation": "SC",
+            "city": "Sacramento",
+            "state": "CA"
+        },
+        {
+            "abbreviation": "SD",
+            "city": "San Diego",
+            "state": "CA"
+        },
+        {
+            "abbreviation": "SE",
+            "city": "Seattle",
+            "state": "WA"
+        },
+        {
+            "abbreviation": "SF",
+            "city": "San Francisco",
+            "state": "CA"
+        },
+        {
+            "abbreviation": "SI",
+            "city": "Springfield",
+            "state": "IL"
+        },
+        {
+            "abbreviation": "SJ",
+            "city": "San Juan",
+            "state": "PR"
+        },
+        {
+            "abbreviation": "SL",
+            "city": "St. Louis",
+            "state": "MO"
+        },
+        {
+            "abbreviation": "SU",
+            "city": "Salt Lake City",
+            "state": "UT"
+        },
+        {
+            "abbreviation": "TP",
+            "city": "Tampa",
+            "state": "FL"
+        },
+        {
+            "abbreviation": "WF",
+            "city": "Washington",
+            "state": "DC"
+        }
+    ]
+}

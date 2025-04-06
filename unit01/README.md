@@ -35,7 +35,7 @@ print("Hello, World!")
 
 ## 1.4 Homework Preparation
 
-Python programs often require extra reusable code, called *modules*, written by others. We use the program `pip` to install these modules.
+Python programs often require extra reusable code, called *modules*. Python comes with many many useful modules. But sometimes we need to install additional modules written by others. For the modules that didn't come with Python, we use the program `pip` to install these modules.
 
 Guided tasks:
 1. Upgrade pip to ensure it is the latest version.

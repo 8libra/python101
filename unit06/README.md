@@ -2,13 +2,13 @@
 
 In this unit you will learn to:
 - Open a file to read textual data
-- Read CSV files
 - Open a file to write textual data
+- Read CSV files
 - Write CSV files
 
 ## 6.1 Why files?
 
-*Files* contain data we want to analyze, and we can store results of analysis in files to share with others. We will be learning to read from and write to files on disk.
+*Files* contain data we want to analyze, and we can save results of analysis in files to share with others. We will be learning to read from and write to files on disk.
 
 ## 6.2 File Operations
 
@@ -21,11 +21,13 @@ In this unit, we will focus on reading textual files and writing textual files.
 ```python
 with open(filename, "r", encoding = "utf-8") as input:
     # `input` is called a file handle
+    # filename is a string
     # code that uses the file must be indented
 ```
 
 ```python
 with open(filename, "w", encoding = "utf-8") as output:
+    # filename is a string
     # code that uses the file must be indented
 ```
 
@@ -47,6 +49,7 @@ in_file = "in.txt" # file must exist
 out_file = "out.txt" # if the file exists, it will be overwritten
 
 with open(in_file, "r", encoding = utf-8") as input, open(out_file, "w", encoding = "utf-8") as output:
+    # Read each line of input in a loop
     for line in input:
         output.write(line)
 ```
@@ -58,10 +61,13 @@ in_file = "in.txt" # file must exist
 out_file = "out.txt" # if the file exists, it will be overwritten
 
 with open(in_file, "r", encoding = utf-8") as input, open(out_file, "w", encoding = "utf-8") as output:
+    # Read each line of input in a loop
     for line in input:
         new_line = "# " + line
         output.write(new_line)
 ```
+
+If both `x` and `y` are string expressions, the `+` operator concatenates them.
 
 ## 6.5 CSV and TSV Files
 
@@ -108,7 +114,7 @@ import csv # The `csv` module comes with Python
 
 out_file = "data.csv"
 with open(out_file, "w", encoding = utf-8", newline = "") as output:
-    # The newline = "" argument is needed to prevent duplicate newline characters
+    # The newline = "" argument is needed to prevent duplicate newline characters at the end of each row
     writer = csv.writer(output)
     # At this point, the variable `writer` is a magic object that is set up to make writing rows and fields easy.
     header = ["list", "of", "columns"]
@@ -123,7 +129,7 @@ import csv # The `csv` module comes with Python
 
 out_file = "data.tsv"
 with open(out_file, "w", encoding = utf-8", newline = "") as output:
-    # The newline = "" argument is needed to prevent duplicate newline characters
+    # The newline = "" argument is needed to prevent duplicate newline characters at the end of each row
     writer = csv.writer(output, delimiter = "\t")
     # At this point, the variable `writer` is a magic object that is set up to make writing rows and fields easy.
     header = ["list", "of", "columns"]
@@ -148,11 +154,12 @@ if len(sys.argv) != 3:
     print("Usage: python convert.py <input_file> <output_file>", file = sys.stderr)
     sys.exit(1)
 input_file, output_file = sys.argv[1], sys.argv[2]
-# `sys.argv` is a list variable that contains arguments specified at the command line, the first argument is at index 1
-# sys.stderr is a way to print error messages to the screen, and is used to distinguish between error messages and data output
-# sys.exit is a function that exits Python, with an error code
+# `sys.argv` is a list variable that contains arguments specified at the command line, the first argument is at index 1 because index 0 is the name of the Python file
+# sys.stderr is a way to print error messages to the screen, and is used to distinguish between error and status messages and data output
+# sys.exit is a function that exits Python, with an status code
 
 # Detect input delimiter using the filename extension
+# we use the lower() function because the case of the filename is unpredictable
 if input_file.lower().endswith(".csv"):
     input_delimiter = ","
 elif input_file.lower().endswith(".tsv"):
@@ -162,6 +169,7 @@ else:
     sys.exit(2)
 
 # Detect output delimiter using the filename extension
+# we use the lower() function because the case of the filename is unpredictable
 if output_file.lower().endswith(".csv"):
     output_delimiter = ","
 elif output_file.lower().endswith(".tsv"):
@@ -186,3 +194,11 @@ Write a Python program, `first_field.py`. The program should read a .csv file, a
 Bonus 1: Modify the program to output the first and third fields (watch the indices!), instead of just the first field.
 
 Bonus 2: Can you use the example of `convert.py` to extend your program to handle TSV files too? Double credit if you can get the program to handle TSV and CSV files for both input and output.
+
+## 6.10 Important Concepts
+
+Ensure you understand the following concepts (if not, ask!):
+
+- Opening text files for reading and writing
+- The difference between CSV files and TSV files
+- Reading from and writing to a CSV or TSV file

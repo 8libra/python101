@@ -6,3 +6,5 @@
 - [Unit 4: Conditional Statements](unit04/README.md)
 - [Unit 5: Loops](unit05/README.md)
 - [Unit 6: Reading and Writing CSV and TSV Files](unit06/README.md)
+- [Unit 7: Reading JSON Data](unit07/README.md)
+- [Unit 8: Functions, Command Line Arguments and Directory Operations](unit08/README.md)

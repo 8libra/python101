@@ -18,7 +18,7 @@ The World Wide Web is not limited to transferring web pages, images or videos. A
 
 ## 10.2 requests module
 
-`requests` is a well-maintained and easy-to-use Python module to send and download data from the World Wide Web. Install the module with the following command:
+`requests` is a well-maintained and easy-to-use Python module to send and download data from the World Wide Web. If requests weren't installed from unit 1, we would install the module with the following command:
 
 ```cmd
 pip install requests
@@ -74,9 +74,56 @@ if response.status_code == 200: # success
 
 The World Wide Web can be used to transfer any type of data, as long as someone knows the resource's URL and as long as someone or some program at the receiving end knows how to handle the data.
 
-Originally the World Wide Web was used to transfer HTML web pages, images and other media. For lots of technical reasons, developers found the World Wide Web to be a convenient mechanism to transfer, now, everything.
+Originally the World Wide Web was used only to transfer HTML web pages, images and other media. For lots of technical reasons, developers found the World Wide Web to be a convenient mechanism to transfer, now, everything.
 
 Many applications today that have nothing to do with web pages use the protocols and semantics of the World Wide Web information space to operate and to transfer their data, because it is technically convenient.
 
 An Application Programming Interface (API) on the World Wide Web is a URL that returns data. The particulars of the request and response are decided by the developers. Some APIs require authentication. And many APIs on the World Wide Web return data in the JSON format.
 
+Some APIs are not intended for broad use. The Apple BSSID locator API is one such example. This API is intended to be used by Apple devices, and the API is not publicly documented by Apple. But smart researchers reverse engineered the API.
+
+APIs intended for use by the public are documented by their operator, so that developers know how to interact with the API.
+
+### 10.6.1 Cryptocurrency Price API
+
+We will access a free, publicly available API that returns cryptocurrency prices. [The API documentation is here.](https://docs.coingecko.com/reference/simple-price)
+
+```python
+import requests
+
+params = {"ids": "bitcoin,ethereum", "vs_currencies": "usd"}
+api_url = "https://api.coingecko.com/api/v3/simple/price"
+with requests.session() as session:
+    r = session.get(api_url, params = params)
+print(r.text)
+```
+
+This is JSON! The `requests module has a convenience function that parses the response text into JSON.
+
+## 10.7 Homework
+
+Finish the following program that queries the CoinGecko API by processing the JSON output. Print the cryptocurrencies and prices in a way suitable for humans.
+
+```python
+import requests
+
+params = {"ids": "bitcoin,ethereum", "vs_currencies": "usd"}
+api_url = "https://api.coingecko.com/api/v3/simple/price"
+with requests.session() as session:
+    r = session.get(api_url, params = params)
+    if r.status_code == 200:
+        # At this point, the variable r.text contains the text of the response, which is in the JSON format.
+        print(r.text)
+
+        # We can use a convenience function to convert the JSON response into a Python object.
+        data = r.json()
+        # At this point, the variable data is the Python representation of the JSON returned by the server
+```
+
+## 10.8 Important Concepts
+
+Ensure you understand the following concepts (if not, ask!):
+
+- How Python programs can access information on the World Wide Web
+- The distinction between text and binary modes when reading and writing files
+- The role of application programming interfaces

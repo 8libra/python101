@@ -145,7 +145,7 @@ Consider putting the code to output each format into separate functions. But, co
 
 ## 11.6 Discussion
 
-Let's review the capstone together and look at what we have achieved.
+Let's review the capstone together, discuss potential optimizations and reflect on what we have achieved.
 
 ## 11.7 Important Concepts
 

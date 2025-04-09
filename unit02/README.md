@@ -116,6 +116,25 @@ print(empty_list)
 print(empty_list[0])
 ```
 
+### 2.5.2 Nested Lists
+
+*Key point*: Lists can hold any value, not just numbers. Lists can hold other lists! This is used in real-world applications.
+
+```python
+#! /usr/bin/env python
+
+l = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(type(l))
+print(l[1])
+print(type(l[1]))
+print(l[1][2])
+```
+
 ## 2.6 Homework Preparation
 
 Guided task: Review the sourcecode of `make_random_numbers.py`. Note that in Python, code indentation is mandatory.

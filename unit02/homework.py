@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 
-random_numbers_text_file = "random_numbers.txt" # a variable storing the name of the file to create
+random_numbers_text_file = "random_numbers.txt" # a variable storing the name of the file that was created
 # insert a line here to initialize an empty list
-with open(random_numbers_text_file, "r", encoding = "utf-8") as input:
-    for line in input:
+with open(random_numbers_text_file, "r", encoding = "utf-8") as input: # open the file for reading
+    for line in input: # read each line in the file
         # The variable `line` is a string with a newline at the end. The following line turns this line into the integer on that line.
         number = int(line.rstrip())
-        # write a line here to store the `number` variable to the list you initialized by appending the number to the list.
+        # write a line here to store the `number` variable to the list you initialized, specifically append the number to the list.
 
 # Question 1: How many numbers are in the file?
 

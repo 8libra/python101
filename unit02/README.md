@@ -121,8 +121,6 @@ print(empty_list[0])
 *Key point*: Lists can hold any value, not just numbers. Lists can hold other lists! This is used in real-world applications.
 
 ```python
-#! /usr/bin/env python
-
 l = [
     [1, 2, 3],
     [4, 5, 6],

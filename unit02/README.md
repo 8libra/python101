@@ -135,6 +135,12 @@ print(l[1][2])
 
 ## 2.6 Homework Preparation
 
+Please `cd` into the python101 directory and run the following command to synchronize the files on your computer with the latest files in Github:
+
+```cmd
+git pull
+```
+
 Guided task: Review the sourcecode of `make_random_numbers.py`. Note that in Python, code indentation is mandatory.
 
 Guided task: Review the sourcecode of `homework.py`.

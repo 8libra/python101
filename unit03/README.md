@@ -123,6 +123,8 @@ Guided task: Review the sourcecode of `homework.py`.
 
 Open the file `homework.py` and complete the questions. Ask questions if stuck!
 
+The solution is in [homework_solution.py](homework_solution.py).
+
 ## 3.6 Important Concepts
 
 Ensure you understand the following concepts (if not, ask!):
